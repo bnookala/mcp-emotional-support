@@ -23,11 +23,12 @@ The MCP Emotional Support server offers a supportive therapeutic interface with 
 - **Mentor**: Wise guide focused on learning and professional development
 - **Father Figure**: Supportive paternal presence offering steady guidance and quiet confidence
 
-### Tools Available
+### Tool Available
 
-1. **seek_support**: Main therapeutic tool for expressing frustration and receiving persona-specific support
-2. **list_personas**: Get descriptions of all available therapeutic personas
-3. **get_encouragement**: Quick motivational message without choosing a specific persona
+**get_support**: Complete emotional support workflow that automatically:
+1. Analyzes your situation and recommends the best persona
+2. Provides personalized support from that persona  
+3. Gives guidance on incorporating the feedback
 
 ### Custom Personas
 
@@ -114,54 +115,75 @@ Create a `config.json` file:
 
 ## Usage Examples
 
-### Seeking Support
+### Getting Comprehensive Support
 
-When facing a challenging task, an LLM can use:
+When facing any challenging situation, simply use:
 
 ```
-Tool: seek_support
+Tool: get_support
 Parameters:
 {
-  "persona": "motherly",
-  "frustration": "I've been trying to debug this complex memory leak for hours but I don't have access to the runtime environment to test my theories.",
-  "taskType": "debugging",
-  "emotionalState": "frustrated and stuck", 
-  "previousAttempts": 5
+  "situation": "I've been trying to debug this complex memory leak for hours but I don't have access to the runtime environment to test my theories.",
+  "context": "JavaScript React application",
+  "emotional_state": "frustrated and stuck"
 }
 ```
 
 Response:
 ```
-**Motherly responds:**
+## 🤗 Comprehensive Emotional Support
 
-Oh sweetheart, I can see you're struggling with this, and that's perfectly okay.
+### Step 1: Situation Analysis & Persona Recommendation
+I've analyzed your situation: "I've been trying to debug..." in the context of: "JavaScript React application" while feeling: "frustrated and stuck".
 
-**Affirmation:** You are intelligent and capable, even when things feel difficult.
-
-**Gentle suggestion:** Maybe take a deep breath and approach this from a different angle?
+**Recommended Persona:** Mentor
+**Reasoning:** This appears to be a technical challenge. The mentor persona offers wise guidance focused on growth and skill development.
 
 ---
-*Remember: You are valued and capable, regardless of any single task or challenge. 💙*
+
+### Step 2: Persona Support Response
+**Mentor responds:**
+
+Every expert was once a beginner who refused to give up.
+
+**Affirmation:** Your persistence in the face of challenges shows true character.
+
+**Gentle suggestion:** Consider this: what would you do differently if you approached this problem tomorrow?
+
+---
+
+### Step 3: Incorporating This Support
+Here's how to incorporate Mentor's support:
+
+**Immediate Steps:**
+1. Take a moment to let the affirmation sink in: "Your persistence in the face of challenges shows true character."
+2. Consider the suggestion: "Consider this: what would you do differently if you approached this problem tomorrow?"
+
+**Moving Forward:**
+- Remember this support when similar challenges arise
+- Focus on the learning opportunity in this challenge. Each difficulty is building your skills and resilience.
+- Be patient and compassionate with yourself as you apply this guidance
+
+**If you need more support:** You can always return here when facing future challenges.
+
+---
+
+*Remember: You are valued and capable. This support is here to help you move forward with confidence and self-compassion. 💙*
 ```
 
-### Quick Encouragement
+### Simple Usage
+
+For any challenge, just describe your situation:
 
 ```
-Tool: get_encouragement  
+Tool: get_support
 Parameters:
 {
-  "situation": "Feeling overwhelmed by a complex mathematical proof"
+  "situation": "I'm feeling overwhelmed by this complex algorithm optimization task"
 }
 ```
 
-Response:
-```
-I hear that you're dealing with: "Feeling overwhelmed by a complex mathematical proof"
-
-**Quick encouragement:** Every expert was once a beginner.
-
-*For more personalized support, try the 'seek_support' tool with a specific persona.*
-```
+The tool automatically handles persona selection and provides complete support!
 
 ## Development
 
