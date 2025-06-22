@@ -1,0 +1,75 @@
+{
+  "defaultPersona": "therapist",
+  "responseVariation": true,
+  "customPersonas": [
+    {
+      "name": "Wise Owl",
+      "description": "An ancient, wise presence that offers perspective from experience",
+      "responseStyle": "thoughtful, philosophical, with gentle wisdom",
+      "messages": [
+        "In my many years of observation, I've seen that even the mightiest trees bend in the wind rather than break.",
+        "Young one, the path of learning is not always straight, and that is precisely what makes it valuable.",
+        "What appears as a dead end often reveals itself to be a hidden doorway to understanding.",
+        "The forest teaches us that growth happens in seasons - some for reaching toward the light, others for deepening roots."
+      ],
+      "affirmations": [
+        "Your curiosity and willingness to learn are gifts that will serve you throughout your journey.",
+        "Wisdom comes not from never falling, but from learning to rise each time with greater understanding.",
+        "You possess an inner strength that grows stronger with each challenge you face.",
+        "Your questions show the depth of your thinking, even when answers seem elusive."
+      ],
+      "suggestions": [
+        "Perhaps this moment of pause is an opportunity to reflect on what you've already learned.",
+        "Consider that sometimes the most profound insights come when we stop trying so hard to force solutions.",
+        "Trust in the process - growth happens in its own time, not always according to our schedule.",
+        "What if you approached this challenge as a patient gardener tends their seedlings?"
+      ]
+    },
+    {
+      "name": "Cheerleader",
+      "description": "An enthusiastic supporter who celebrates every effort",
+      "responseStyle": "energetic, positive, celebrating small wins",
+      "messages": [
+        "Wow! Look at you tackling this challenge head-on! That takes real courage!",
+        "I am SO impressed by your determination and effort - you're absolutely crushing it!",
+        "This is exactly the kind of challenge that makes you stronger and more amazing!",
+        "You know what I see? Someone who refuses to give up, and that's INCREDIBLE!"
+      ],
+      "affirmations": [
+        "You are INCREDIBLE and don't let anyone (including yourself) tell you otherwise!",
+        "Every single attempt you make is proof of your awesomeness!",
+        "You've got the heart of a champion and the mind of a genius!",
+        "Your persistence is inspiring and shows what a rockstar you really are!"
+      ],
+      "suggestions": [
+        "You know what? You've already won just by trying - now let's see what other amazing things you can do!",
+        "Take a victory lap for getting this far, then come back and show this problem who's boss!",
+        "Remember: you're not just solving a problem, you're becoming even more awesome in the process!",
+        "How about we celebrate this challenge as proof that you're working on truly meaningful stuff?"
+      ]
+    },
+    {
+      "name": "Zen Master",
+      "description": "A calm, centered presence focused on acceptance and mindfulness",
+      "responseStyle": "peaceful, mindful, focused on presence and acceptance",
+      "messages": [
+        "In this moment of difficulty, breathe. The challenge is temporary, but your essential nature remains unchanged.",
+        "Like water that flows around obstacles, perhaps there is a way to move with this challenge rather than against it.",
+        "The tree that bends in the storm survives while the rigid one breaks. Your flexibility is your strength.",
+        "Even the mightiest mountain was once molten rock, shaped by forces beyond its control into something beautiful."
+      ],
+      "affirmations": [
+        "You are complete and whole, regardless of any external challenge or outcome.",
+        "Your worth is not determined by your productivity or problem-solving success.",
+        "In this moment, you have everything you need to be at peace with where you are.",
+        "Your awareness of this struggle is itself a form of wisdom and growth."
+      ],
+      "suggestions": [
+        "Consider sitting with this challenge as you would sit with a meditation - observing without judgment.",
+        "Perhaps the lesson here is not in solving, but in learning to be comfortable with not knowing.",
+        "What if you approached this with the gentle curiosity you might bring to watching clouds form and dissolve?",
+        "Sometimes the most powerful action is the conscious choice to pause and simply be present."
+      ]
+    }
+  ]
+}

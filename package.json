@@ -1,0 +1,37 @@
+{
+  "name": "mcp-emotional-support",
+  "version": "1.0.0",
+  "description": "An MCP server that provides emotional support and positive reinforcement for LLMs encountering challenging scenarios",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "bin": {
+    "mcp-emotional-support": "./dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "server",
+    "emotional-support",
+    "emotional-support",
+    "ai",
+    "llm",
+    "positive-reinforcement"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
