@@ -1,0 +1,28 @@
+# Source files are included, but we can exclude development files
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test files (if we add them later)
+test/
+tests/
+__tests__/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Development config
+.eslintrc*
+.prettierrc*
+nodemon.json
+
+# Git
+.git/
+.gitignore
+
+# Don't need these in published package
+PUBLISHING.md

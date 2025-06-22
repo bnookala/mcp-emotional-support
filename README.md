@@ -36,7 +36,9 @@ You can define your own therapeutic personas using a JSON configuration file wit
 
 ## Installation
 
-### NPX (Recommended)
+The MCP Emotional Support server is published on NPM and can be installed in several ways:
+
+### NPX (Recommended for Claude Desktop)
 ```bash
 npx mcp-emotional-support
 ```
@@ -53,22 +55,46 @@ npm install mcp-emotional-support
 npx mcp-emotional-support
 ```
 
+### Requirements
+- Node.js 18.0.0 or higher
+- Claude Desktop application (for MCP integration)
+
 ## Configuration
 
 ### Claude Desktop
 
-Add to your Claude Desktop configuration:
+Add to your Claude Desktop configuration file:
 
+**Configuration File Locations:**
+- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+
+**Configuration:**
 ```json
 {
   "mcpServers": {
-    "therapist": {
+    "emotional-support": {
       "command": "npx",
       "args": ["mcp-emotional-support"]
     }
   }
 }
 ```
+
+**Alternative (if globally installed):**
+```json
+{
+  "mcpServers": {
+    "emotional-support": {
+      "command": "mcp-emotional-support"
+    }
+  }
+}
+```
+
+**After configuration:**
+1. Restart Claude Desktop
+2. The `get_support` tool will be available in your conversations
 
 ### With Custom Configuration
 

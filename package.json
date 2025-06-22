@@ -17,12 +17,23 @@
     "mcp",
     "server",
     "emotional-support",
-    "emotional-support",
+    "therapy",
     "ai",
     "llm",
-    "positive-reinforcement"
+    "positive-reinforcement",
+    "mental-health",
+    "personas",
+    "claude"
   ],
-  "author": "Your Name",
+  "author": "bhnook",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bnookala/mcp-emotional-support.git"
+  },
+  "homepage": "https://github.com/bnookala/mcp-emotional-support#readme",
+  "bugs": {
+    "url": "https://github.com/bnookala/mcp-emotional-support/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"
